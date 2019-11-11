@@ -1,0 +1,73 @@
+.modele-container {
+    margin: 0 auto;
+    padding-top: 30px !important;
+ }
+
+ .modele-container .block-titre {
+    font-size: 1.15rem;
+ }
+
+ .download-link {
+    margin-bottom: 15px;
+    float: right;
+    border: 1px solid;
+    padding: 6px;
+    border-radius: 5px;
+ }
+
+ .download-link img {
+     height: 16px;
+ }
+
+.col-xs-2 {
+    width: 17.66666667%;
+    padding-right: 0;
+}
+
+.col-xs-10 {
+    width: 82.33333333%;
+}
+
+ul {
+    padding: 0 0 0 15px;
+}
+
+.experience li {
+    list-style: disc;
+}
+.block-contact {
+    padding-left: 0 !important;
+}
+.block-photo img {
+    width: 123px;
+    position: absolute;
+    right: 15px;
+}
+
+.fonction {
+    margin-bottom: 10px;
+}
+
+.block-formations .diplome {
+    font-size: 13px !important;
+}
+
+.replaced{
+    height: 12px;
+}
+
+@media print{
+    body{
+        margin-left:0.5cm;
+        margin-top:0.3cm;
+    }
+
+    .download-link {
+        display: none;
+    }
+
+    .modele-container {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+}
